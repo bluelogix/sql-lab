@@ -48,6 +48,7 @@ UPDATE [Customers]
 SET PostalCode = '11122'
 where PostalCode = '111'
 
+// STRETCH QUESTIONS
 
 ## list orders grouped by customer showing the number of orders per customer. _Rattlesnake Canyon Grocery_ should have 7 orders.
 SELECT Orders.OrderID, Customers.CustomerName,
