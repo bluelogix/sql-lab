@@ -51,7 +51,7 @@ where PostalCode = '111'
 
 ## list orders grouped by customer showing the number of orders per customer. _Rattlesnake Canyon Grocery_ should have 7 orders.
 SELECT CustomerName, OrderId, Quantity FROM [Customers], [Orders], [OrderDetails]
-Group By CustomerName, Quantity
+Group By CustomerName, Quantity //
 
 
 
